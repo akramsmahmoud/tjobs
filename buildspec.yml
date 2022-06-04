@@ -1,11 +1,16 @@
 version: 0.2
-
 phases:
+  pre_build:
+    commands:
+      - echo "Entered the pre-build phase"
   build:
     commands:
-      - echo Build started on `date`
-      - echo installing composer..
+      - echo "Entered build phase"
+      - mvn clean prepare-package war:exploded
   post_build:
     commands:
-      - echo Build completed on `date`
-      - echo Pushing the Docker image...
+      - echo "Entered the post-build phase"
+      - mv target/deploy ./
+artifacts:
+  files:
+    - deploy/**/*
