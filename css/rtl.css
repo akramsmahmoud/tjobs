@@ -1,0 +1,15 @@
+.container-fluid > .navbar-header {
+  float: right;
+}
+
+.navbar-default .navbar-collapse {
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.owl-carousel .owl-item {
+  float: right !important;
+}
