@@ -88,7 +88,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'delete') {
                     <?php while ($employee = mysqli_fetch_assoc($employees)) { ?>
                       <tr>
                         <td><?= ++$count ?></td>
-                        <td><img src="../uploads/employees_photos/<?= $employee['img'] ?>" alt="<?= $employee['first_name'] ?>" class="img-responsive" style="max-width:70px"></td>
+                        <td><img src="<?= $_SERVER['cdn'] ?>/uploads/employees_photos/<?= $employee['img'] ?>" alt="<?= $employee['first_name'] ?>" class="img-responsive" style="max-width:70px"></td>
                         <td><?= $employee['first_name'] . " " .  $employee['last_name'] ?></td>
                         <td><?= $employee['email'] ?></td>
                         <td><?= $employee['career'] ?></td>

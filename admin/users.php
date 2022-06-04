@@ -193,8 +193,8 @@ if (isset($_POST['update_pass'])) {
 <!-- /.modal -->
 
 <?php include 'inc/footer.php'; ?>
-<script src="plugins/sweetalert2/sweetalert2.min.js"></script>
-<script src="plugins/toastr/toastr.min.js"></script>
+<script src="<?= $_SERVER['cdn'] ?>/plugins/sweetalert2/sweetalert2.min.js"></script>
+<script src="<?= $_SERVER['cdn'] ?>/plugins/toastr/toastr.min.js"></script>
 
 <script>
   $(function() {

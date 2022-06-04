@@ -78,7 +78,7 @@ if (isset($_GET['approved'])) {
                     <?php while ($job = mysqli_fetch_assoc($jobs)) { ?>
                       <tr>
                         <td><?= $job['id'] ?></td>
-                        <td><img src="../uploads/company_photos/<?= $job['pic'] ?>" alt="<?= $job['company_name'] ?>" class="img-responsive" style="max-width:70px"></td>
+                        <td><img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $job['pic'] ?>" alt="<?= $job['company_name'] ?>" class="img-responsive" style="max-width:70px"></td>
                         <td><?= $job['company_name'] ?></td>
                         <td><?= $job['email'] ?></td>
                         <td><?= $job['career'] ?></td>

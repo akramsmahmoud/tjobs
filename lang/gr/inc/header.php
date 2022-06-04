@@ -25,8 +25,8 @@
     <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
     <link rel="stylesheet" type="text/css" href="css/flag-icons.min.css">
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    <scriptsrc="<?= $_SERVER['cdn'] ?>/js/html5shiv.js"></script>
+    <scriptsrc="<?= $_SERVER['cdn'] ?>/js/respond.min.js"></script>
   [endif]-->
 </head>
 

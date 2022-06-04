@@ -20,7 +20,7 @@
             <div class="card card-registration my-4">
               <div class="row g-0">
                 <div class="col-xl-6 d-none d-xl-block">
-                  <img src="./images/form.jpeg" alt="Sample photo" class="img-fluid" style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                  <img src="<?= $_SERVER['cdn'] ?>/images/form.jpeg" alt="Sample photo" class="img-fluid" style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
                 </div>
                 <div class="col-xl-6">
                   <div class="card-body p-md-5 text-black">
@@ -127,9 +127,10 @@
     </section>
   </form>
   <!-- Bootstrap JS Bundle with Popper -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="js/pages/jobs.js"></script>
+  <scriptsrc="<?= $_SERVER['cdn'] ?> /js/pages/jobs.js">
+    </script>
 </body>
 
 </html>
