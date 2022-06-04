@@ -81,7 +81,7 @@
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix <?= $_server['hostname'] ?></h1>
+                                <h1>We Are Cosmix <?= $_server['RDS_HOSTNAME'] ?></h1>
                                 <h2>Creative Themes</h2>
                                 <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
                                 <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>

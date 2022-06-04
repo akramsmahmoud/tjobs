@@ -1,5 +1,5 @@
 <?php
-$mysql_hostname = $_server['hostname'];
+$mysql_hostname = $_server['RDS_HOSTNAME'];
 $mysql_user = $_server['RDS_USERNAME'];
 $mysql_password = $_server['RDS_PASSWORD'];
 $mysql_database = $_server['RDS_DB_NAME'];
