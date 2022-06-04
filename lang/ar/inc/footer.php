@@ -26,7 +26,7 @@
 <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.prettyPhoto.js"></script>
 <!--NiceScroll-Jquery-->
 <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.nicescroll.js"></script>
-<script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/waypoints.min.js"></script>
+
 <!--Isotopes-->
 <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.isotope.js"></script>
 <!--Wow-Jquery-->
