@@ -11,5 +11,7 @@ phases:
       - echo "Entered the post-build phase"
       - ls
 artifacts:
+  commands:
+    - ls
   files:
     - "**/*"
