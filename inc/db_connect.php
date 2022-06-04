@@ -1,8 +1,9 @@
 <?php
-$mysql_hostname = $_server['RDS_HOSTNAME'];
-$mysql_user = $_server['RDS_USERNAME'];
-$mysql_password = $_server['RDS_PASSWORD'];
-$mysql_database = $_server['RDS_DB_NAME'];
+$mysql_hostname = $_SERVER['RDS_HOSTNAME'];
+$mysql_user = $_SERVER['RDS_USERNAME'];
+$mysql_password = $_SERVER['RDS_PASSWORD'];
+$mysql_database = $_SERVER['RDS_DB_NAME'];
+$mysql_port = $_SERVER['RDS_PORT'];
 
 
-$db_connect = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_database) or ("Could not connect database");
+$db_connect = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_database, $mysql_port) or ("Could not connect database");
