@@ -129,8 +129,8 @@
   <!-- Bootstrap JS Bundle with Popper -->
   <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <scriptsrc="<?= $_SERVER['cdn'] ?> /js/pages/jobs.js">
-    </script>
+  <script src="<?= $_SERVER['cdn'] ?> /js/pages/jobs.js">
+  </script>
 </body>
 
 </html>
