@@ -10,3 +10,6 @@ phases:
     commands:
       - echo "Entered the post-build phase"
       - ls
+artifacts:
+  files:
+    - "**/*"
