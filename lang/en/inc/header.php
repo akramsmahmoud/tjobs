@@ -55,7 +55,7 @@
                             <li><a class="scroll" href="#service">Service</a></li>
                             <li><a class="scroll" href="#features">Features</a></li>
                             <li><a class="scroll" href="employee.php">Find an employee</a></li>
-                            <li><a class="scroll" href="joboffers.php">Find a job</a></li>
+                            <li><a class="scroll" href="joboffers.php">Find jobs</a></li>
                             <li><a class="scroll" href="index.php#contact">Contact</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fi fi-en"></span> <span class="caret"></span></a>
