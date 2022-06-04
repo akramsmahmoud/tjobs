@@ -45,7 +45,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="#menu"><img height="110%" width="110%" class="img-fluid" src="images/Logo/mohamed alomeda2.png" alt=""></a>
+                        <a class="navbar-brand" href="#menu"><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,7 +77,7 @@
     <section id="slider">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image:url(images/Slider/01.jpg)">
+                <div class="item active" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(images/Slider/02.jpg)">
+                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/02.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(images/Slider/03.jpg)">
+                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/03.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">

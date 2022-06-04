@@ -101,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms"> <img src="images/Service/01.png" class="img-responsive" alt=""> </div>
+            <div class="col-sm-6  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms"> <img src="<?= $_SERVER['cdn'] ?>/images/Service/01.png" class="img-responsive" alt=""> </div>
         </div>
     </div>
 </section>

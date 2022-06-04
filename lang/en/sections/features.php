@@ -26,7 +26,7 @@
                     </p>
                     <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound </p>
                 </div>
-                <div class="col-md-6 tab-img"><img src="images/Features/01.jpg" class="img-responsive" alt=""></div>
+                <div class="col-md-6 tab-img"><img src="<?= $_SERVER['cdn'] ?>/images/Features/01.jpg" class="img-responsive" alt=""></div>
             </div>
             <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-2">
                 <div class="col-md-6 tab">
@@ -37,7 +37,7 @@
                     </p>
                     <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound </p>
                 </div>
-                <div class="col-md-6 tab-img"><img src="images/Features/02.jpg" class="img-responsive" alt=""></div>
+                <div class="col-md-6 tab-img"><img src="<?= $_SERVER['cdn'] ?>/images/Features/02.jpg" class="img-responsive" alt=""></div>
             </div>
             <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
                 <div class="col-md-6 tab">
@@ -48,7 +48,7 @@
                     </p>
                     <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound </p>
                 </div>
-                <div class="col-md-6 tab-img"><img src="images/Features/03.jpg" class="img-responsive" alt=""></div>
+                <div class="col-md-6 tab-img"><img src="<?= $_SERVER['cdn'] ?>/images/Features/03.jpg" class="img-responsive" alt=""></div>
             </div>
             <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-4">
                 <div class="col-md-6 tab">
@@ -59,7 +59,7 @@
                     </p>
                     <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound </p>
                 </div>
-                <div class="col-md-6 tab-img"><img src="images/Features/04.jpg" class="img-responsive" alt=""></div>
+                <div class="col-md-6 tab-img"><img src="<?= $_SERVER['cdn'] ?>/images/Features/04.jpg" class="img-responsive" alt=""></div>
             </div>
             <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-5">
                 <div class="col-md-6 tab">
@@ -70,7 +70,7 @@
                     </p>
                     <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound </p>
                 </div>
-                <div class="col-md-6 tab-img"><img src="images/Features/05.jpg" class="img-responsive" alt=""></div>
+                <div class="col-md-6 tab-img"><img src="<?= $_SERVER['cdn'] ?>/images/Features/05.jpg" class="img-responsive" alt=""></div>
             </div>
         </div>
     </div>
