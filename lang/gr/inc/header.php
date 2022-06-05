@@ -8,22 +8,22 @@
     <meta name="author" content="">
     <title>Cosmix Free HTML5 Responsive Template | Template Stock</title>
     <!--Bootstrap-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
     <!--Stylesheets-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/style.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/style.css">
     <!--Responsive-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
     <!--Animation-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
     <!--Prettyphoto-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
     <!--Font-Awesome-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
     <!--Owl-Slider-->
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.transitions.css">
-    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/flag-icons.min.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.transitions.css">
+    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/flag-icons.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
