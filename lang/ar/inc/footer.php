@@ -19,7 +19,9 @@
     <p> &copy; Copyright 2022 cairo - Created By : <a href="#" target="_blank">Mohamed Medhat Team</a> </p>
 </footer>
 <!--Jquery-->
-<script type="text/javascript" async src="<?= $_SERVER['cdn'] ?>/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+
 <!--Boostrap-Jquery-->
 <script type="text/javascript" async src="<?= $_SERVER['cdn'] ?>/js/bootstrap.js"></script>
 <!--Preetyphoto-Jquery-->
