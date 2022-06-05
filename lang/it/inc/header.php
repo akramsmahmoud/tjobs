@@ -8,22 +8,22 @@
     <meta name="author" content="">
     <title>Cosmix Free HTML5 Responsive Template | Template Stock</title>
     <!--Bootstrap-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
     <!--Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/style.css">
     <!--Responsive-->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
     <!--Animation-->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
     <!--Prettyphoto-->
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
     <!--Font-Awesome-->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
     <!--Owl-Slider-->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
-    <link rel="stylesheet" type="text/css" href="css/flag-icons.min.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.transitions.css">
+    <link rel="stylesheet" disabled media="all" type="text/css" href="css/flag-icons.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -49,7 +49,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="#menu"><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
+                        <a class="navbar-brand" href="index.php"><span class="sr-only">logo lavoturismo </span><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -62,7 +62,7 @@
                             <li><a class="scroll" href="joboffers.php">Find a job</a></li>
                             <li><a class="scroll" href="index.php#contact">Contact</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fi fi-it"></span> <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="sr-only">language switch </span><span class="fi fi-it"></span> <span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-langs" role="menu">
                                     <li><a href="index.php?lang=ar"><span class="fi fi-eg"></span></a></li>
                                     <li><a href="index.php?lang=en"><span class="fi fi-en"></span></a></li>
