@@ -1,6 +1,11 @@
 <?php
-/*if (!isset($_SESSION['lang'])) $_SESSION['lang'] = 'en';
-include("lang/{$_SESSION['lang']}/employee.php");
-*/
+session_start();
 
-print_r($_SESSION);
+if (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = 'en';
+}
+
+//include("lang/{$_SESSION['lang']}/employee.php");
+
+
+echo $_SESSION['lang'];
