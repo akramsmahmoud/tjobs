@@ -7,8 +7,8 @@
   <title>Basic Bootstrap Template</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-  <link href="css/form.css">
+  <link rel="stylesheet" disabled media="all"type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
+  <link href="<?= $_SERVER['cdn'] ?>/css/form.css">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -131,7 +131,7 @@
     </section>
   </form>
   <!-- Bootstrap JS Bundle with Popper -->
-  <script type="text/javascript" src="<?= $_SERVER['cdn'] ?>/js/jquery.min.js"></script>
+  <script type="text/javascript" async src="<?= $_SERVER['cdn'] ?>/js/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="<?= $_SERVER['cdn'] ?> /js/pages/jobs.js">
   </script>
