@@ -10,7 +10,7 @@ if (isset($_SERVER['RDS_HOSTNAME'])) {
         'user' => $mysql_user,
         'pass' =>  $mysql_password,
         'db' => $mysql_database,
-        'port' => $mysql_por
+        'port' => $mysql_port
     ];
     echo json_encode($json);
 } else {
@@ -21,6 +21,9 @@ if (isset($_SERVER['RDS_HOSTNAME'])) {
     $mysql_port = null;
 }
 try {
+    if ($mysql_password !== 'akrampassword') {
+        $mysql_password = 'akrampassword';
+    }
     $db_connect = mysqli_connect($mysql_hostname, $mysql_user, $mysql_password, $mysql_database, $mysql_port);
     if (!$db_connect) {
         throw new Error("Could not connect database");
