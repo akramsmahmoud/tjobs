@@ -5,6 +5,8 @@ if (isset($_SERVER['RDS_HOSTNAME'])) {
     $mysql_password = $_SERVER['RDS_PASSWORD'];
     $mysql_database = $_SERVER['RDS_DB_NAME'];
     $mysql_port = $_SERVER['RDS_PORT'];
+
+    echo $mysql_hostname + $mysql_user + $mysql_password + $mysql_database + $mysql_port;
 } else {
     $mysql_hostname = 'localhost';
     $mysql_user = 'root';
