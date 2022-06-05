@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Mohamed Medhat Team">
     <meta name="author" content="">
-    <title>Cosmix Free HTML5 Responsive Template | Template Stock</title>
+    <title>Lavoturismo | Home</title>
     <!--Bootstrap-->
     <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
     <!--Stylesheets-->
