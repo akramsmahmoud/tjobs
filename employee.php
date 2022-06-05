@@ -3,4 +3,4 @@
 include("lang/{$_SESSION['lang']}/employee.php");
 */
 
-echo "<h1>Test</h1>";
+print_r($_SESSION);
