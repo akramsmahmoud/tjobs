@@ -5,14 +5,6 @@ if (isset($_SERVER['RDS_HOSTNAME'])) {
     $mysql_password = $_SERVER['RDS_PASSWORD'];
     $mysql_database = $_SERVER['RDS_DB_NAME'];
     $mysql_port = $_SERVER['RDS_PORT'];
-    $json = [
-        'host' => $mysql_hostname,
-        'user' => $mysql_user,
-        'pass' =>  $mysql_password,
-        'db' => $mysql_database,
-        'port' => $mysql_port
-    ];
-    echo json_encode($json);
 } else {
     $mysql_hostname = 'localhost';
     $mysql_user = 'root';
