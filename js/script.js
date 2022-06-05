@@ -121,17 +121,18 @@ $(function () {
 /* ==============================================
   	  Nice Scroll 
   	=============================================== */
-
-$("html").niceScroll({
-  scrollspeed: 100,
-  mousescrollstep: 38,
-  cursorwidth: 5,
-  cursorborder: 0,
-  cursorcolor: "#333",
-  autohidemode: true,
-  zindex: 999999999,
-  horizrailenabled: false,
-  cursorborderradius: 0,
+$(document).ready(function () {
+  $("html").niceScroll({
+    scrollspeed: 100,
+    mousescrollstep: 38,
+    cursorwidth: 5,
+    cursorborder: 0,
+    cursorcolor: "#333",
+    autohidemode: true,
+    zindex: 999999999,
+    horizrailenabled: false,
+    cursorborderradius: 0,
+  });
 });
 
 /* ==============================================
