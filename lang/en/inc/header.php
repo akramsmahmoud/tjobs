@@ -8,22 +8,22 @@
     <meta name="author" content="">
     <title>Lavoturismo | Home</title>
     <!--Bootstrap-->
-    <link rel="stylesheet"  media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/bootstrap.css">
     <!--Stylesheets-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/style.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/style.css">
     <!--Responsive-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
     <!--Animation-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
     <!--Prettyphoto-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
     <!--Font-Awesome-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
     <!--Owl-Slider-->
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
-    <link rel="stylesheet" media="all" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
-    <link rel="stylesheet" media="all" type="text/css" href="css/owl.transitions.css">
-    <link rel="stylesheet" media="all" type="text/css" href="css/flag-icons.min.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.transitions.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/flag-icons.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
