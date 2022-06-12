@@ -5,8 +5,7 @@
             <div class="heading">
                 <h2>CONTACT <span>US</span></h2>
                 <div class="line"></div>
-                <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p><span><strong>Don't </strong></span>ever hesitate to get in touch with our team if there's something wrong with our website or if u have a comment that can positivly help improving our service</p>
             </div>
         </div>
         <div class="text-center">
@@ -14,16 +13,16 @@
                 <h4>CONTACT IN<span>FO</span></h4>
                 <ul class="contact-form">
                     <li><i class="fa fa-map-marker"></i>
-                        <h6><strong>Address:</strong> No 123 , Wallstreet, India </h6>
+                        <h6><strong>Address:</strong> Egypt - Obour city - shabab street </h6>
                     </li>
                     <li><i class="fa fa-envelope"></i>
-                        <h6><strong>Mail Us:</strong> <a href="#">Info@yourdomain.com</a></h6>
+                        <h6><strong>Mail Us:</strong> <a href="#">mohamedmedhat685@gmail.com</a></h6>
                     </li>
                     <li><i class="fa fa-phone"></i>
-                        <h6><strong>Phone:</strong> +91 123-456-7890 </h6>
+                        <h6><strong>Phone:</strong> 0201125159506 </h6>
                     </li>
                     <li><i class="fa fa-wechat"></i>
-                        <h6><strong>Website:</strong> <a href="#">www.Cosmix.com</a> </h6>
+                        <h6><strong>Website:</strong> <a href="www.lavoturismo.com">www.lavoturismo.com</a> </h6>
                     </li>
                 </ul>
             </div>

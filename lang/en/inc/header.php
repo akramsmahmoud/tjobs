@@ -49,7 +49,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="index.php"><span class="sr-only">logo lavoturismo </span><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
+                        <a class="navbar-brand" href="index.php"><img height="110%" width="110%" class="img-fluid" src="images/Logo/mohamed alomeda2.png" alt=""></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -59,14 +59,14 @@
                             <li><a class="scroll" href="#service">Service</a></li>
                             <li><a class="scroll" href="#features">Features</a></li>
                             <li><a class="scroll" href="employee.php">Find an employee</a></li>
-                            <li><a class="scroll" href="joboffers.php">Find jobs</a></li>
+                            <li><a class="scroll" href="joboffers.php">Find a job</a></li>
                             <li><a class="scroll" href="index.php#contact">Contact</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="sr-only">language switch </span><span class="fi fi-en"></span> <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fi fi-en"></span> <span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-langs" role="menu">
-                                    <li><a href="?lang=it"><span class="fi fi-it"></span></a></li>
-                                    <li><a href="?lang=ar"><span class="fi fi-eg"></span></a></li>
-                                    <li><a href="?lang=gr"><span class="fi fi-de"></span></a></li>
+                                    <li><a href="index.php?lang=it"><span class="fi fi-it"></span></a></li>
+                                    <li><a href="index.php?lang=ar"><span class="fi fi-eg"></span></a></li>
+                                    <li><a href="index.php?lang=gr"><span class="fi fi-de"></span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -81,39 +81,39 @@
     <section id="slider">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/01.jpg)">
+                <div class="item active" style="background-image:url(images/Slider/01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
+                                <h1>We Are Lavoturismo</h1>
+                                <h2>Looking for a job?</h2>
+                                <p>Lavoturismo is the best website to present yourself and your skills properly to receive a good opportunities, wait for job offers or even find appropriate job ads and communicate directly with tourism companies</p>
                                 <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
                                 <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/02.jpg)">
+                <div class="item" style="background-image:url(images/Slider/02.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
+                                <h1>We Are Lavoturismo</h1>
+                                <h2>Looking for an employee?</h2>
+                                <p>Lavoturismo is the best website to find experienced and competent employees. Where you can create a job ad and navigate between job profiles and choose employees yourself based on their CV</p>
                                 <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
                                 <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/03.jpg)">
+                <div class="item" style="background-image:url(images/Slider/03.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
+                                <h1>We Are Lavoturismo</h1>
+                                <h2>We're the best link</h2>
+                                <p>Our website is the bridge through which the right employee crosses to his appropriate job and a meeting place between the company and the competent employee</p>
                                 <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
                                 <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
                             </div>
