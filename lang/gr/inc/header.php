@@ -49,20 +49,20 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="index.php"><span class="sr-only">logo lavoturismo </span><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
+                        <a class="navbar-brand" href="#menu"><img height="110%" width="110%" class="img-fluid" src="images/Logo/mohamed alomeda2.png" alt=""></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a class="scroll" href="index.php">pagina Home</a></li>
-                            <li><a class="scroll" href="#about">About</a></li>
-                            <li><a class="scroll" href="#service">Service</a></li>
-                            <li><a class="scroll" href="#features">Features</a></li>
-                            <li><a class="scroll" href="employee.php">Find an employee</a></li>
-                            <li><a class="scroll" href="joboffers.php">Find a job</a></li>
-                            <li><a class="scroll" href="index.php#contact">Contact</a></li>
+                            <li class="active"><a class="scroll" href="index.php">Home</a></li>
+                            <li><a class="scroll" href="#about">Über</a></li>
+                            <li><a class="scroll" href="#service">service</a></li>
+                            <li><a class="scroll" href="#features">Merkmalen</a></li>
+                            <li><a class="scroll" href="employee.php">einen Mitarbeiter finden</a></li>
+                            <li><a class="scroll" href="joboffers.php">einen Beruf finden</a></li>
+                            <li><a class="scroll" href="index.php#contact">Kontakt</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="sr-only">language switch </span><span class="fi fi-de"></span> <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fi fi-de"></span> <span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-langs" role="menu">
                                     <li><a href="index.php?lang=ar"><span class="fi fi-eg"></span></a></li>
                                     <li><a href="index.php?lang=en"><span class="fi fi-en"></span></a></li>
@@ -81,41 +81,41 @@
     <section id="slider">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/01.jpg)">
+                <div class="item active" style="background-image:url(images/Slider/01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>Wir sind Lavoturismo</h1>
+                                <h2>CAuf der Suche nach einem Job?</h2>
+                                <p>Lavoturismo ist die beste Website, um sich und Ihre Fähigkeiten richtig zu präsentieren, gute Möglichkeiten zu erhalten, auf Stellenangebote zu warten oder sogar passende Stellenanzeigen zu finden und direkt mit Tourismusunternehmen zu kommunizieren</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Profil</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Stellenangebot</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/02.jpg)">
+                <div class="item" style="background-image:url(images/Slider/02.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>Wir sind Lavoturismo</h1>
+                                <h2>Sie brauchen einen Mitarbeiter?</h2>
+                                <p>Lavoturismo ist die beste Website, um erfahrene und kompetente Mitarbeiter zu finden. Wo Sie eine Stellenanzeige erstellen und zwischen Stellenprofilen navigieren und Mitarbeiter anhand ihres Lebenslaufs selbst auswählen können</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Profil</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Stellenangebot</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/03.jpg)">
+                <div class="item" style="background-image:url(images/Slider/03.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>Wir sind Lavoturismo</h1>
+                                <h2>Wir sind das beste Bindeglied</h2>
+                                <p>Unsere Website ist die Brücke, über die der richtige Mitarbeiter zu seinem entsprechenden Arbeitsplatz gelangt und ein Treffpunkt zwischen dem Unternehmen und dem zuständigen Mitarbeiter</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Profil</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Senden Sie Ihr Stellenangebot</button></a>
                             </div>
                         </div>
                     </div>

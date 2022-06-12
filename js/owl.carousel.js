@@ -752,6 +752,15 @@ if (typeof Object.create !== "function") {
         },
 
         doTranslate : function (pixels) {
+            if($("body").hasClass("rtl")){
+                return {
+                    "-webkit-transform": "translate3D(" + -pixels + "px, 0px, 0px)",
+                    "-moz-transform": "translate3d(" + -pixels + "px, 0px, 0px)",
+                    "-o-transform": "translate3d(" + -pixels + "px, 0px, 0px)",
+                    "-ms-transform": "translate3d(" + -pixels + "px, 0px, 0px)",
+                    "transform": "translate3d(" + -pixels + "px, 0px,0px)"
+                }
+            }
             return {
                 "-webkit-transform": "translate3d(" + pixels + "px, 0px, 0px)",
                 "-moz-transform": "translate3d(" + pixels + "px, 0px, 0px)",

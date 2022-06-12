@@ -3,18 +3,17 @@
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
             <div class="heading">
-                <h2>ABOUT <span>US</span></h2>
+                <h2><span>من</span> نحن</h2>
                 <div class="line"></div>
-                <p><span><strong>W</strong></span>e are a group of students decided to make the turism field rasie again and to build a website that can fill the gap between company and job seeker</p>
+                <p><span><strong>نحن </strong></span>مجموعة من مطورين الويب أخذنا على عاتقنا مسؤولية ملئ الفجوة الكبيرة بين الموظفين والشركات في القطاع السياحي التي خلفتها ازمة الكورونا</p>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12 ab-sec">
                 <div class="col-md-6">
-                    <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>
-                    <p><span><strong>W</strong></span>e believed in each other's potential, designed this website in a fine way. We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.
-                </div>
-                <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="<?= $_SERVER['cdn'] ?>/images/Aboutus/OIP.jpg" alt=""> </div>
+                    <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>نحن </span>فريق يمتاز بالثقة دائم التطور</h3>
+                    <p><span><strong>نحن </strong></span>فريق يعتمد بعضنا على الاخر فنكمل بعضنا بعضا. ليس هناك حدود لما نريد بناءه. تعلمنا كيف نخلص في العمل حتى نتمه وان الإستمرار وتطوير المهارات والتزود باللغات الحديثة هو الحل.</div>
+                <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/OIP.jpg" alt=""> </div>
             </div>
         </div>
     </div>
@@ -27,6 +26,6 @@
             <h3></h3>
             <p></p>
         </div>
-
+    
     </div>
 </div>

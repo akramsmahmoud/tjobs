@@ -14,17 +14,17 @@
     <!--Responsive-->
     <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/responsive.css">
     <!--Animation-->
-    <link rel="stylesheet" media="screen" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/animate.css">
     <!--Prettyphoto-->
-    <link rel="stylesheet" media="screen" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/prettyPhoto.css">
     <!--Font-Awesome-->
-    <link rel="stylesheet" media="screen" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/font-awesome.css">
     <!--Owl-Slider-->
     <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.carousel.css">
     <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.theme.css">
     <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/owl.transitions.css">
     <link rel="stylesheet" media="screen" href="//cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css">
-    <link rel="stylesheet" media="screen" type="text/css" href="css/rtl.css">
+    <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/rtl.css">
     <link rel="stylesheet" media="screen" type="text/css" href="<?= $_SERVER['cdn'] ?>/css/flag-icons.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,7 +36,7 @@
   [endif]-->
 </head>
 
-<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100" class="rtl">
     <!--Preloader-->
     <div id="preloader">
         <div id="pre-status">
@@ -52,14 +52,14 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a class="scroll" href="index.php">الصفحة الرئيسية</a></li>
-                            <li><a class="scroll" href="#about">About</a></li>
-                            <li><a class="scroll" href="#service">Service</a></li>
-                            <li><a class="scroll" href="#features">Features</a></li>
-                            <li><a class="scroll" href="employee.php">Find an employee</a></li>
-                            <li><a class="scroll" href="joboffers.php">Find a job</a></li>
-                            <li><a class="scroll" href="index.php#contact">Contact</a></li>
+                            <li><a class="scroll" href="#about">من نحن</a></li>
+                            <li><a class="scroll" href="#service">خدماتنا</a></li>
+                            <li><a class="scroll" href="#features">ميزات موقعنا</a></li>
+                            <li><a class="scroll" href="employee.php">إعثر على موظف</a></li>
+                            <li><a class="scroll" href="joboffers.php">إعثر على وظيفة</a></li>
+                            <li><a class="scroll" href="index.php#contact">إتصل بنا</a></li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="sr-only">language switch </span><span class="fi fi-eg"></span> <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="fi fi-eg"></span> <span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-langs" role="menu">
                                     <li><a href="index.php?lang=it"><span class="fi fi-it"></span></a></li>
                                     <li><a href="index.php?lang=en"><span class="fi fi-en"></span></a></li>
@@ -72,7 +72,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="index.php"><span class="sr-only">logo lavoturismo </span><img height="110%" width="110%" class="img-fluid" src="<?= $_SERVER['cdn'] ?>/images/Logo/mohamed alomeda2.png" alt=""></a>
+                        <a class="navbar-brand" href="#menu"><img height="110%" width="110%" class="img-fluid" src="images/Logo/mohamed alomeda2.png" alt=""></a>
                     </div>
                 </div>
                 <!-- /.container-fluid -->
@@ -83,41 +83,41 @@
     <section id="slider">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/01.jpg)">
+                <div class="item active" style="background-image:url(images/Slider/01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>نحن نكون كوزميك</h1>
-                                <h2>تصاميم ابداعية</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>نحن لافوتوريزمو</h1>
+                                <h2>هل تبحث عن وظيفة؟</h2>
+                                <p>لافوتوريزمو هو الموقع الأفضل لعرض نفسك ومهاراتك بالشكل الملائم لتلقي الفرص، وإنتظار تلقي العروض الوظيفية أو حتى إيجاد إعلانات وظيفية ملائمة والتواصل المباشر مع الشركات السياحية</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">أنشئ ملفك الوظيفي الخاص</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">إنشئ إعلانك الوظيفي</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/02.jpg)">
+                <div class="item" style="background-image:url(images/Slider/02.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>نحن لافوتوريزمو</h1>
+                                <h2>هل تبحث عن موظف مناسب؟</h2>
+                                <p>لافوتوريزمو هو الموقع الأفضل لإيجاد الموظفين ذو الخبرة والكفاءة حيث يمكنك إنشاء إعلان وظيفي وأيضا التصفح بين الملفات الوظيفية وإنتقاء الموظفين بنفسك بناء على سيرتهم الذاتية</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">أنشئ ملفك الوظيفي الخاص</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">إنشئ إعلانك الوظيفي</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(<?= $_SERVER['cdn'] ?>/images/Slider/03.jpg)">
+                <div class="item" style="background-image:url(images/Slider/03.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative business agency. Multiple pages also included in this theme with lots of CSS and JQuery animations</p>
-                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">Submit your profile</button></a>
-                                <a href="add_job.php"><button class="btn btn-danger btn-lg">Submit your job offer</button></a>
+                                <h1>نحن لافوتوريزمو</h1>
+                                <h2>نحن حلقة الوصل</h2>
+                                <p>موقعنا هو الجسر الذي يعبر من خلاله الموظف المناسب إلى وظيفته المناسبة وملتقى بين الشركة والموظف الكفء</p>
+                                <a href="signup_employee.php"><button class="btn btn-danger btn-lg">أنشئ ملفك الوظيفي الخاص</button></a>
+                                <a href="add_job.php"><button class="btn btn-danger btn-lg">إنشئ إعلانك الوظيفي</button></a>
                             </div>
                         </div>
                     </div>

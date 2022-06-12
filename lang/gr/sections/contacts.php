@@ -3,10 +3,9 @@
     <div class="container">
         <div class="col-md-8 col-md-offset-2">
             <div class="heading">
-                <h2>CONTACT <span>US</span></h2>
+                <h2>Kontaktieren <span>Sie uns</span></h2>
                 <div class="line"></div>
-                <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <p><span><strong>Zögern </strong></span>Sie nicht, sich mit unserem Team in Verbindung zu setzen, wenn mit unserer Website etwas nicht stimmt oder wenn Sie einen Kommentar haben, der positiv zur Verbesserung unseres Service beitragen kann</p>
             </div>
         </div>
         <div class="text-center">
@@ -14,16 +13,16 @@
                 <h4>CONTACT IN<span>FO</span></h4>
                 <ul class="contact-form">
                     <li><i class="fa fa-map-marker"></i>
-                        <h6><strong>Address:</strong> No 123 , Wallstreet, India </h6>
+                        <h6><strong>Adresse:</strong> Egypt - Obour city - shabab street </h6>
                     </li>
                     <li><i class="fa fa-envelope"></i>
-                        <h6><strong>Mail Us:</strong> <a href="#">Info@yourdomain.com</a></h6>
+                        <h6><strong>Mail :</strong> <a href="#">mohamedmedhat685@gmail.com</a></h6>
                     </li>
                     <li><i class="fa fa-phone"></i>
-                        <h6><strong>Phone:</strong> +91 123-456-7890 </h6>
+                        <h6><strong>Telefon:</strong> 0201125159506 </h6>
                     </li>
                     <li><i class="fa fa-wechat"></i>
-                        <h6><strong>Website:</strong> <a href="#">www.Cosmix.com</a> </h6>
+                        <h6><strong>Website:</strong> <a href="www.lavoturismo.com">www.lavoturismo.com</a> </h6>
                     </li>
                 </ul>
             </div>
@@ -42,12 +41,12 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="subject" class="form-control subject" placeholder="Subject" required="required">
+                        <input type="text" name="subject" class="form-control subject" placeholder="Betreff" required="required">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="message" class="form-control message" rows="4" placeholder="Enter your message" required="required"></textarea>
+                        <textarea name="message" id="message" class="form-control message" rows="4" placeholder="Geben Sie Ihre Nachricht ein" required="required"></textarea>
                     </div>
-                    <button class="btn-send col-md-12 col-sm-12 col-xs-12" id="sendContact">Send Now</button>
+                    <button class="btn-send col-md-12 col-sm-12 col-xs-12" id="sendContact">Jetzt senden</button>
                 </form>
                 <div class="displaySuccess"></div>
             </div>

@@ -1,4 +1,4 @@
-.container-fluid > .navbar-header {
+.container-fluid > .navbar-header,#features .tab-content .line {
   float: right;
 }
 
@@ -10,6 +10,24 @@
   text-align: right;
 }
 
+/* .owl-carousel .owl-item{
+  float: right !important;
+}
+.owl-wrapper {right: 0 !important;} */
+
+.owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  direction: ltr;
+}
 .owl-carousel .owl-item {
   float: right !important;
+}
+
+.owl-carousel .owl-wrapper-outer {
+  direction: rtl !important;
+}
+.media-body h5,#features .tab-content h5,.lead,.carousel-caption {
+  text-align: right;
 }
