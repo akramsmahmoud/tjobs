@@ -1,5 +1,7 @@
 <?php
 session_start();
+ini_set('display_errors', 1);
+echo "<h1>{$_SESSION['lang']}</h1>";
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 if (isset($_GET['lang'])) {
     $get_lang = $_GET['lang'];
