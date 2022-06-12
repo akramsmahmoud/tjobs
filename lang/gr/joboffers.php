@@ -1,7 +1,8 @@
 <?php
 ob_start();
-include("inc/db_connect.php");
 session_start();
+include("inc/db_connect.php");
+
 $RoomServiceSupervisors =  mysqli_query($db_connect, "SELECT * FROM jobs WHERE career='RoomServiceSupervisor' AND approved = 1 AND approved = 1 ORDER BY created_at DESC");
 $RoomServiceSupervisors_num = mysqli_num_rows($RoomServiceSupervisors);
 

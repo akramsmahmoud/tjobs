@@ -1,5 +1,6 @@
 <?php
 ob_start();
+session_start();
 include("inc/db_connect.php");
 
 $RoomServiceSupervisors =  mysqli_query($db_connect, "SELECT * FROM jobs WHERE career='RoomServiceSupervisor' AND approved = 1 AND approved = 1 ORDER BY created_at DESC");
@@ -26,7 +27,7 @@ $Lifeguard_num = mysqli_num_rows($Lifeguard);
 $Other =  mysqli_query($db_connect, "SELECT * FROM jobs WHERE career='Other' AND approved = 1 ORDER BY created_at DESC");
 $Other_num = mysqli_num_rows($Other);
 ?>
-<?php include('inc/header.php') ?>
+<?php include("lang/{$_SESSION['lang']}/inc/header.php") ?>
 
 <section id="projects">
   <div class="container">
