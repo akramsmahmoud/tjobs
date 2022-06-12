@@ -13,3 +13,4 @@ $_SESSION['lang'] =  $lang;
 print_r($_SESSION);
 echo "<br> lang/{$_SESSION['lang']}/employee.php";
 require("lang/{$_SESSION['lang']}/employee.php");
+phpinfo();
