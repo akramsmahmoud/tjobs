@@ -1,4 +1,5 @@
 <?php
+session_start();
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 if (isset($_GET['lang'])) {
     $get_lang = $_GET['lang'];
