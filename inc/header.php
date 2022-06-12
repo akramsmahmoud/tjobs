@@ -64,8 +64,8 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="sr-only">language switch </span><span class="fi fi-en"></span> <span class="caret"></span></a>
                                 <ul class="dropdown-menu dropdown-menu-langs" role="menu">
-                                    <li><a href="index.php?lang=it"><span class="fi fi-it"></span></a></li>
-                                    <li><a href="index.php?lang=en"><span class="fi fi-en"></span></a></li>
+                                    <li><a href="?lang=it"><span class="fi fi-it"></span></a></li>
+                                    <li><a href="?lang=en"><span class="fi fi-en"></span></a></li>
                                 </ul>
                             </li>
                         </ul>
