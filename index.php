@@ -1,6 +1,5 @@
 <?php
 session_start();
-$_SERVER['cdn'] = 'https://cdn.lavoturismo.com';
 $lang = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 if (isset($_GET['lang'])) {
     $get_lang = $_GET['lang'];
