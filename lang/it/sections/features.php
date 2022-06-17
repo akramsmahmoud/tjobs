@@ -74,3 +74,12 @@
         </div>
     </div>
 </section>
+
+<!--Testimonials-Section-Start-->
+<section id="testimonials" class="parallex" style="background-image: url(images/fixed2.jpg)">
+    <div class=" container">
+        <div class="clearfix"></div>
+        <div class="slider-text">
+        </div>
+    </div>
+</section>

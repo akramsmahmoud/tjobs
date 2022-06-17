@@ -12,20 +12,19 @@
             <div class="col-md-12 ab-sec">
                 <div class="col-md-6">
                     <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>Wir</span> sind kreativ und großartig</h3>
-                    <p><span><strong>Wir</strong></span> glaubten an das Potenzial des anderen, gestalteten diese Website auf eine feine Art und Weise. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen.</div>
+                    <p><span><strong>Wir</strong></span> glaubten an das Potenzial des anderen, gestalteten diese Website auf eine feine Art und Weise. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen. Wir haben unser Bestes getan, damit ein Arbeitssuchender leicht einen guten Job bekommen kann. Das Unternehmen kann leicht ein gutes Jobangebot machen.
+                </div>
                 <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/OIP.jpg" alt=""> </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--About-Sec-2-Start-->
-<div class="bg-sec">
-    <div class="container">
-        <div class="col-md-10 col-sm-10 col-xs-8">
-            <h3></h3>
-            <p></p>
+<!--Testimonials-Section-Start-->
+<section id="testimonials" class="parallex" style="background-image: url(images/fixed1.jpg)">
+    <div class=" container">
+        <div class="clearfix"></div>
+        <div class="slider-text">
         </div>
-    
     </div>
-</div>
+</section>

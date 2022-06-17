@@ -12,20 +12,19 @@
             <div class="col-md-12 ab-sec">
                 <div class="col-md-6">
                     <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>نحن </span>فريق يمتاز بالثقة دائم التطور</h3>
-                    <p><span><strong>نحن </strong></span>فريق يعتمد بعضنا على الاخر فنكمل بعضنا بعضا. ليس هناك حدود لما نريد بناءه. تعلمنا كيف نخلص في العمل حتى نتمه وان الإستمرار وتطوير المهارات والتزود باللغات الحديثة هو الحل.</div>
+                    <p><span><strong>نحن </strong></span>فريق يعتمد بعضنا على الاخر فنكمل بعضنا بعضا. ليس هناك حدود لما نريد بناءه. تعلمنا كيف نخلص في العمل حتى نتمه وان الإستمرار وتطوير المهارات والتزود باللغات الحديثة هو الحل.
+                </div>
                 <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/OIP.jpg" alt=""> </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--About-Sec-2-Start-->
-<div class="bg-sec">
-    <div class="container">
-        <div class="col-md-10 col-sm-10 col-xs-8">
-            <h3></h3>
-            <p></p>
+<!--Testimonials-Section-Start-->
+<section id="testimonials" class="parallex" style="background-image: url(images/fixed1.jpg)">
+    <div class=" container">
+        <div class="clearfix"></div>
+        <div class="slider-text">
         </div>
-    
     </div>
-</div>
+</section>

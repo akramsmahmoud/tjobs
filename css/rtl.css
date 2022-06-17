@@ -31,3 +31,13 @@
 .media-body h5,#features .tab-content h5,.lead,.carousel-caption {
   text-align: right;
 }
+
+@media (min-width: 299px) and (max-width: 479px) {
+  .container-fluid>.navbar-header {
+      float: none;
+    }
+  
+    .navbar-default .navbar-collapse {
+      float: none;
+    }
+}

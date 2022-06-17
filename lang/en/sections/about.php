@@ -12,20 +12,19 @@
             <div class="col-md-12 ab-sec">
                 <div class="col-md-6">
                     <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>
-                    <p><span><strong>W</strong></span>e believed in each other's potential, designed this website in a fine way. We did our best so that a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.</div>
+                    <p><span><strong>W</strong></span>e believed in each other's potential, designed this website in a fine way. We did our best so that a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.We did our best so a job seeker can get a good job easly. Company can easly make a good job offer.
+                </div>
                 <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/OIP.jpg" alt=""> </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--About-Sec-2-Start-->
-<div class="bg-sec">
-    <div class="container">
-        <div class="col-md-10 col-sm-10 col-xs-8">
-            <h3></h3>
-            <p></p>
-        </div>
-    
+<!--Testimonials-Section-Start-->
+<section id="testimonials" class="parallex" style="background-image: url(images/fixed1.jpg)">
+    <div class=" container">
+    <div class="clearfix"></div>
+    <div class="slider-text">
     </div>
-</div>
+    </div>
+</section>

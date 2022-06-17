@@ -9,7 +9,7 @@
             </div>
         </div>
         <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#tab-1" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i></a></li>
+            <li role="presentation" class="active"><a href="#tab-1" role="tab" data-toggle="tab"><i class="fa fa-paper-plane"></i></a></li>
             <li role="presentation"><a href="#tab-2" role="tab" data-toggle="tab"><i class="fa fa-hand-peace-o"></i></a></li>
             <li role="presentation"><a href="#tab-3" role="tab" data-toggle="tab"><i class="fa fa-certificate"></i></a></li>
             <li role="presentation"><a href="#tab-4" role="tab" data-toggle="tab"><i class="fa fa-compass"></i></a></li>
@@ -45,7 +45,7 @@
                     <div class="clearfix"></div>
                     <p class="feat-sec">موقعنا الإلكتروني يمكنك من الوصول إلى موظفين مميزين ذو مهارات وخبرات ممتازة ويمكنك التواصل معهم مباشرة وبدون عوائق او حواجز ويمكنك تصفح سيرتهم الذاتية والتاكد من كل المهارات وإيجاد هذه المهارات عن طريق لينك لينكد اين الخاص بهم<br>
                     </p>
-                    <p class="feat-sec-1">الموظف المثالي والمتمكن  يسهل التعرف عليه عن طريق كتابته للسيرة الذاتية والتعريف عن نفسه في كلمات بسيطة </p>
+                    <p class="feat-sec-1">الموظف المثالي والمتمكن يسهل التعرف عليه عن طريق كتابته للسيرة الذاتية والتعريف عن نفسه في كلمات بسيطة </p>
                 </div>
                 <div class="col-md-6 tab-img"><img src="images/Features/03.jpg" class="img-responsive" alt=""></div>
             </div>
@@ -54,7 +54,7 @@
                     <h5>شركات ومنشآت عالمية</h5>
                     <div class="line"></div>
                     <div class="clearfix"></div>
-                    <p class="feat-sec">يستهدف موقعنا المنشآت العالمية حيث تم تصميمع باربع لغات مهمين وما هذه الا البداية  فقط وما زال أمامنا طريق طويل من التطوير واللغات المستهدفة</p>
+                    <p class="feat-sec">يستهدف موقعنا المنشآت العالمية حيث تم تصميمع باربع لغات مهمين وما هذه الا البداية فقط وما زال أمامنا طريق طويل من التطوير واللغات المستهدفة</p>
                     <p class="feat-sec-1">هذه اللغات من شأنها تحسين فرصتك في الوصول لأسواق اخرى للعمل ولتحقيق شغفك والوصول لمكانة عالية والتعرف على مجتمعات وثقافات مختلفة</p>
                 </div>
                 <div class="col-md-6 tab-img"><img src="images/Features/04.jpg" class="img-responsive" alt=""></div>
@@ -70,6 +70,15 @@
                 </div>
                 <div class="col-md-6 tab-img"><img src="images/Features/05.jpg" class="img-responsive" alt=""></div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!--Testimonials-Section-Start-->
+<section id="testimonials" class="parallex" style="background-image: url(images/fixed2.jpg)">
+    <div class=" container">
+        <div class="clearfix"></div>
+        <div class="slider-text">
         </div>
     </div>
 </section>
