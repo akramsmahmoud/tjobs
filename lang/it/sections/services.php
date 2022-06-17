@@ -10,7 +10,7 @@
         </div>
         <div class="row">
             <div class="features-sec">
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-line-chart"></i> </div>
                         <div class="media-body">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
                 <!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
                         <div class="media-body">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-pie-chart"></i> </div>
                         <div class="media-body">
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
                         <div class="media-body">
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-language"></i> </div>
                         <div class="media-body">
@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
                     <div class="media service-box">
                         <div class="pull-left"> <i class="fa fa-bullseye"></i> </div>
                         <div class="media-body">
