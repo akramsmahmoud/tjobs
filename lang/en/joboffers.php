@@ -78,10 +78,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -108,10 +105,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -138,10 +132,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -168,10 +159,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -198,10 +186,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -228,10 +213,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -258,10 +240,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -288,10 +267,7 @@ $Other_num = mysqli_num_rows($Other);
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
                       <ul class="team-social-icon">
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest-p"></i></a></li>
-                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto:<?= $data['email'] ?>" data-toggle="tooltip" data-placement="top" title="<?= $data['email'] ?>"><i class="fa fa-envelope"></i></a></li>
                       </ul>
                     </div>
                   </div>
