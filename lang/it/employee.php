@@ -80,7 +80,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -164,7 +164,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -248,7 +248,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -276,7 +276,7 @@ $Other_num = mysqli_num_rows($Other);
                       <p><?= $data['about'] ?></p>
                       <ul class="team-social-icon">
                         <li><a href="<?= $data['linkedin_url'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
+                        <li><a href="<?= $_SERVER['cdn'] ?>/uploads/cv/<?= $data['cv'] ?>" target="_blank" data-toggle="tooltip" data-placement="top" title="CV"><i class="fa fa-graduation-cap"></i></a></li>
                       </ul>
                     </div>
                   </div>

@@ -56,12 +56,12 @@ function uploadImage($file, $dir)
 
     $file_photo = $file;
     $file_photo_name = $file_photo["name"];
+    $newFileName = $rand_dir_name . "_" . str_replace(array(" ", "(", ")", "--", "-(", ")-", "-",), "-", $file_photo_name);
 
-    $uploaded = move_uploaded_file($file_photo["tmp_name"], "../uploads/" . $dir . "/" . $rand_dir_name . "_" . str_replace(array(" ", "(", ")", "--", "-(", ")-", "-",), "-", $file_photo_name));
-
+    $uploaded = move_uploaded_file($file_photo["tmp_name"], "../uploads/" . $dir . "/" . $newFileName);
 
     if ($uploaded) {
-        return $file_photo_name;
+        return $newFileName;
     }
 
     return false;
