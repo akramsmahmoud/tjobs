@@ -73,7 +73,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($RoomServiceSupervisors)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -103,7 +103,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($Receptionist)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -133,7 +133,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($EventPlanner)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -163,7 +163,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($WaiterWaitress)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -193,7 +193,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($TourGuide)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -223,7 +223,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($HotelManager)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -253,7 +253,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($Lifeguard)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
@@ -283,7 +283,7 @@ $Other_num = mysqli_num_rows($Other);
             <?php while ($data = mysqli_fetch_assoc($Other)) { ?>
               <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec">
                 <div class="team-sec">
-                  <div class="team-img"> <img src="uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
+                  <div class="team-img"> <img src="<?= $_SERVER['cdn'] ?>/uploads/company_photos/<?= $data['pic'] ?>" class="img-responsive" alt="">
                     <div class="team-desc">
                       <h5><?= $data['company_name'] ?></h5>
                       <p><?= $data['job_description'] ?></p>
